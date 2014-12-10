@@ -111,4 +111,9 @@ public class SimpleValidator{
 	public <T extends View> T onErrorUse(Class<T> view) {
 		return validator.onErrorUse(view);
 	}
+	
+	public void onErrorSendBadRequest() {
+		validator.onErrorSendBadRequest();
+	}
+	
 }
